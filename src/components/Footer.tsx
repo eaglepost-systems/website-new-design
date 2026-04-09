@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img alt="EaglePost" className="h-12 w-auto" src="/lovable-uploads/c56ec328-b9a9-4919-9b4b-ed1f50712114.png" />
+              <img alt="EaglePost" className="h-12 w-auto" src="/uploads/c56ec328-b9a9-4919-9b4b-ed1f50712114.png" />
             </div>
             <div className="flex gap-3 mt-4">
               {/* Google Play */}

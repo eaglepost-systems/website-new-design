@@ -93,11 +93,6 @@
   body {
     @apply bg-background text-foreground font-sans;
   }
-  html[dir="rtl"] body,
-  html[dir="rtl"] * {
-    font-family: "Noto Kufi Arabic", sans-serif !important;
-    font-optical-sizing: auto;
-  }
 }
 
 @layer utilities {
