@@ -1,0 +1,38 @@
+export const positionKeys = [
+  {
+    id: "1",
+    titleKey: "careers.pos1Title",
+    deptKey: "careers.pos1Dept",
+    locationKey: "careers.pos1Location",
+    typeKey: "careers.pos1Type",
+    descKey: "careers.pos1Desc",
+    reqsKey: "careers.pos1Reqs",
+  },
+  {
+    id: "2",
+    titleKey: "careers.pos2Title",
+    deptKey: "careers.pos2Dept",
+    locationKey: "careers.pos2Location",
+    typeKey: "careers.pos2Type",
+    descKey: "careers.pos2Desc",
+    reqsKey: "careers.pos2Reqs",
+  },
+  {
+    id: "3",
+    titleKey: "careers.pos3Title",
+    deptKey: "careers.pos3Dept",
+    locationKey: "careers.pos3Location",
+    typeKey: "careers.pos3Type",
+    descKey: "careers.pos3Desc",
+    reqsKey: "careers.pos3Reqs",
+  },
+  {
+    id: "4",
+    titleKey: "careers.pos4Title",
+    deptKey: "careers.pos4Dept",
+    locationKey: "careers.pos4Location",
+    typeKey: "careers.pos4Type",
+    descKey: "careers.pos4Desc",
+    reqsKey: "careers.pos4Reqs",
+  },
+];
