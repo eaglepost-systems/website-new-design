@@ -9,7 +9,8 @@ const faqs = [
   { q: "What areas do you deliver to?", a: "We deliver across all of Iraq, with express service in the Kurdistan Region. International delivery is available to 40+ countries." },
   { q: "How long does delivery take?", a: "Local deliveries within KRI: 1-2 business days. Rest of Iraq: 2-4 business days. International: 5-10 business days." },
   { q: "What items are prohibited?", a: "Hazardous materials, flammable items, weapons, illegal substances, and perishable goods without proper packaging. See our Prohibited Items page." },
-  { q: "How can I contact customer support?", a: "Call +964 750 596 4000, email info@eaglepost.com, or use our live chat. Available Sat–Thu, 9am–8pm." },
+  { q: "How can I contact customer support?", a: "Call +964 750 596 4000, email customerservice@eaglepost.com
+, or use our live chat. Available Sat–Thu, 9am–8pm." },
   { q: "Do you offer pickup services?", a: "Yes! You can schedule a pickup through our app or by calling customer support." },
   { q: "What payment methods do you accept?", a: "Cash on delivery, bank transfer, and mobile payment options are available." },
 ];

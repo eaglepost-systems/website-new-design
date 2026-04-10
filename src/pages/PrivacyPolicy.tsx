@@ -25,7 +25,8 @@ const PrivacyPolicy = () => {
           <h3 className="font-display font-bold text-lg mt-6 mb-3">Data Security</h3>
           <p className="text-muted-foreground mb-4">We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure.</p>
           <h3 className="font-display font-bold text-lg mt-6 mb-3">Contact Us</h3>
-          <p className="text-muted-foreground">For privacy-related inquiries, contact us at info@eaglepost.com.</p>
+          <p className="text-muted-foreground">For privacy-related inquiries, contact us at customerservice@eaglepost.com
+.</p>
         </div>
       </section>
     </>
