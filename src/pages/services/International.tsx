@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import PageHero from "@/components/PageHero";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 import { heroImages } from "@/lib/heroImages";
 
 const fadeUp = {
@@ -112,9 +113,9 @@ const International = () => {
                   <p className="text-sm text-muted-foreground mt-4">Once submitted, you'll receive an order number. You can track your shipment at any time through the app or website.</p>
                   <p className="text-sm text-muted-foreground mt-2">A courier will collect your package from your location free of charge.</p>
                   <div className="flex flex-wrap gap-3 mt-4">
-                    <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold text-sm hover:underline">App Store</a>
+                    <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="text-primary font-semibold text-sm hover:underline">App Store</a>
                     <span className="text-muted-foreground">·</span>
-                    <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold text-sm hover:underline">Google Play</a>
+                    <a href={GOOGLE_PLAY_URL} target="_blank" rel="noopener noreferrer" className="text-primary font-semibold text-sm hover:underline">Google Play</a>
                   </div>
                 </CardContent>
               </Card>

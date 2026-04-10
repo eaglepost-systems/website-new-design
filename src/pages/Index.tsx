@@ -17,6 +17,7 @@ import { useTranslation } from "react-i18next";
 import deliveryPerson from "@/assets/delivery-person.png";
 import AppShowcase from "@/components/AppShowcase";
 import HomeServices from "@/components/HomeServices";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 import slide1Img from "@/assets/slide-1.jpg";
 import slide2Img from "@/assets/slide-2-new.jpg";
 import slide3Img from "@/assets/slide-3.jpg";
@@ -181,7 +182,7 @@ const Index = () => {
                     {currentSlide === 1 && (
                       <div className="flex flex-wrap gap-3 mt-5">
                         <a
-                          href="https://play.google.com"
+                          href={GOOGLE_PLAY_URL}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2.5 bg-white/10 backdrop-blur-sm text-white rounded-xl px-4 h-12 hover:bg-white/20 transition-colors border border-white/20"
@@ -195,7 +196,7 @@ const Index = () => {
                           </div>
                         </a>
                         <a
-                          href="https://apps.apple.com"
+                          href={APP_STORE_URL}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2.5 bg-white/10 backdrop-blur-sm text-white rounded-xl px-4 h-12 hover:bg-white/20 transition-colors border border-white/20"

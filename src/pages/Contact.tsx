@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, Clock, MessageCircle, Send, MessageSquare } from "lucide-react";
+import { Phone, Mail, Clock, Send, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
+import WhatsappIcon from "@/components/icons/WhatsappIcon";
 import { useTranslation } from "react-i18next";
 import { useToast } from "@/hooks/use-toast";
 import PageHero from "@/components/PageHero";
+import { WHATSAPP_NUMBER, WHATSAPP_URL } from "@/lib/contactLinks";
 import { heroImages } from "@/lib/heroImages";
 
 const Contact = () => {
@@ -45,9 +47,9 @@ const Contact = () => {
                       <div className="text-muted-foreground text-sm space-y-0.5">
                         <p>+964 750 596 4000</p>
                         <p className="flex items-center gap-1.5">
-                          <a href="https://wa.me/9647505984000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-green-600 hover:text-green-700 transition-colors">
-                            <MessageCircle className="w-4 h-4" />
-                            +964 750 598 4000
+                          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-green-600 hover:text-green-700 transition-colors">
+                            <WhatsappIcon className="w-4 h-4" />
+                            {WHATSAPP_NUMBER}
                           </a>
                         </p>
                         <p>+964 775 400 0888</p>

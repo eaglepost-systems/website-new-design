@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import appMockup from "@/assets/app-mockup.jpg";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 
 const floatingCards = [
   { icon: Package, labelKey: "home.ctaCard1", position: "top-[15%] -left-4 md:left-[5%]", delay: 0 },
@@ -94,7 +95,7 @@ const AppShowcase = () => {
         >
           {/* Google Play */}
           <a
-            href="https://play.google.com"
+            href={GOOGLE_PLAY_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-foreground text-background rounded-xl px-5 h-14 hover:opacity-90 transition-opacity"
@@ -110,7 +111,7 @@ const AppShowcase = () => {
 
           {/* App Store */}
           <a
-            href="https://apps.apple.com"
+            href={APP_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-foreground text-background rounded-xl px-5 h-14 hover:opacity-90 transition-opacity"

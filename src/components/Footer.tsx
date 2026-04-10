@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import WhatsappIcon from "@/components/icons/WhatsappIcon";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
+import { WHATSAPP_NUMBER, WHATSAPP_URL } from "@/lib/contactLinks";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -17,7 +20,7 @@ const Footer = () => {
             <div className="flex gap-3 mt-4">
               {/* Google Play */}
               <a
-                href="https://play.google.com"
+                href={GOOGLE_PLAY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg px-3 h-11 transition-colors">
@@ -33,7 +36,7 @@ const Footer = () => {
 
               {/* App Store */}
               <a
-                href="https://apps.apple.com"
+                href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg px-3 h-11 transition-colors">
@@ -49,6 +52,9 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-3 mt-3">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-secondary hover:text-secondary-foreground transition-colors">
+                <WhatsappIcon className="w-4 h-4" />
+              </a>
               <a href="https://www.facebook.com/eaglepost" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-secondary hover:text-secondary-foreground transition-colors">
                 <Facebook className="w-4 h-4" />
               </a>
@@ -128,6 +134,12 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-secondary shrink-0" />
                 <span className="text-primary-foreground/80">{t("nav.phone")}</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <WhatsappIcon className="w-4 h-4 text-secondary shrink-0" />
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                  {WHATSAPP_NUMBER}
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-secondary shrink-0" />
