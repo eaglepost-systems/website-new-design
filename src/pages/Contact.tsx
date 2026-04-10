@@ -84,9 +84,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-sm mb-1">Send us email</h3>
-                      <a href="mailto:customerservice@eaglepost.com
-" className="text-muted-foreground text-sm hover:text-primary transition-colors">customerservice@eaglepost.com
-</a>
+                      <a href="mailto:customerservice@eaglepost.com" className="text-muted-foreground text-sm hover:text-primary transition-colors">customerservice@eaglepost.com</a>
                     </div>
                   </CardContent>
                 </Card>

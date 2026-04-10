@@ -135,8 +135,7 @@ const Navbar = () => {
               <span className="font-medium">{t("nav.phone")}</span>
             </a>
             <span className="hidden h-3.5 w-px bg-primary-foreground/30 sm:block" />
-            <a href="mailto:customerservice@eaglepost.com
-" className="hidden items-center gap-1.5 transition-colors hover:text-secondary sm:flex">
+            <a href="mailto:customerservice@eaglepost.com" className="hidden items-center gap-1.5 transition-colors hover:text-secondary sm:flex">
               <Mail className="h-3 w-3" />
               <span>{t("nav.email")}</span>
             </a>

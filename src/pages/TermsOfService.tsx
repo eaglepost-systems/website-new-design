@@ -25,8 +25,7 @@ const TermsOfService = () => {
           <h3 className="font-display font-bold text-lg mt-6 mb-3">Prohibited Items</h3>
           <p className="text-muted-foreground mb-4">Users are responsible for ensuring that shipped items comply with our prohibited items policy. Eagle Post reserves the right to refuse or return non-compliant shipments.</p>
           <h3 className="font-display font-bold text-lg mt-6 mb-3">Contact</h3>
-          <p className="text-muted-foreground">For questions about these terms, contact customerservice@eaglepost.com
-.</p>
+          <p className="text-muted-foreground">For questions about these terms, contact customerservice@eaglepost.com.</p>
         </div>
       </section>
     </>
