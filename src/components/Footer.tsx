@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -13,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img alt="EaglePost" className="h-12 w-auto" src="/uploads/c56ec328-b9a9-4919-9b4b-ed1f50712114.png" />
+              <img alt="EaglePost" className="h-12 w-auto" src="/eaglepost_logo.jpg" />
             </div>
             <div className="flex gap-3 mt-4">
               {/* Google Play */}
