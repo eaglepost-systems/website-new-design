@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img alt="EaglePost" className="h-12 w-auto" src="/eaglepost_logo.jpg" />
+              <img alt="EaglePost" className="h-12 w-auto" src="/logo-HsMB-9RV.png" />
             </div>
             <div className="flex gap-3 mt-4">
               {/* Google Play */}

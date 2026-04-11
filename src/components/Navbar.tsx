@@ -150,7 +150,7 @@ const Navbar = () => {
       <nav className="border-b border-border bg-background/95 shadow-sm backdrop-blur-md">
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src="/eaglepost_logo.jpg" alt="EaglePost - Express and Postal Services" className="h-16 w-auto" />
+            <img src="/logo-HsMB-9RV.png" alt="EaglePost - Express and Postal Services" className="h-16 w-auto" />
           </Link>
 
           <div className="hidden items-center gap-1 lg:flex">
